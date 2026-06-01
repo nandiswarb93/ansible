@@ -2,7 +2,7 @@
   hosts : local
   connection : local
   vars:
-    COURSE : Ansible
+    COURSE : DevOps With Aws
     DURATION : 10HRS
     Trainer : Sivakumar reddy
   
