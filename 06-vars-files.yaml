@@ -2,11 +2,10 @@
   hosts : local
   connection : local
   vars:
-    COURSE : DevOps With Aws
-    DURATION : 10HRS
-    Trainer : Sivakumar reddy
+   vars_files : course.yaml
   
   tasks :
     - name : print the course info
+     
       ansible.builtin.debug:
         msg : "Course Name is : {{ COURSE }}, Duration : {{ DURATION}}, Trainer : {{ Trainer}}"
